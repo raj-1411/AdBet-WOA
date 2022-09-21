@@ -26,7 +26,7 @@ def params():
                         help = 'Path to train data')
       parser.add_argument('-validation','--validation_path',type=str, 
                         default = 'data/val/', 
-                        help = 'Path to label data')                    
+                        help = 'Path to validation data')                    
       parser.add_argument('-test','--test_path',type=str, 
                         default = 'data/test/', 
                         help = 'Path to test data')
