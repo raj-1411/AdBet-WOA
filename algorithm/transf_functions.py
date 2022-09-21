@@ -1,3 +1,8 @@
+'''
+Created on Sep,2022
+'''
+
+
 import numpy as np
 
 def sigmoid(val):
