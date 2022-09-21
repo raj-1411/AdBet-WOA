@@ -1,5 +1,5 @@
 # Adaptive $\beta$-Hill Climbing Aided Whale Optimization Algorithm (AdBet-WOA)
-- This repository contains the official implementation of our paper titled " [Deep Feature Selection using Adaptive $\beta$-Hill Climbing aided Whale Optimization Algorithm for Lung and Colon Cancer Detection]()" submitted to Biomedical Signal Processing and Control, Elsevier.
+- This repository contains the official implementation of our paper titled " Deep Feature Selection using Adaptive $\beta$-Hill Climbing aided Whale Optimization Algorithm for Lung and Colon Cancer Detection" submitted to Biomedical Signal Processing and Control, Elsevier.
 
 ## Overview
 - AdBet-WOA is a hybrid meta-heuristic optimization algorithm using the Adaptive $\beta$-Hill Climbing local search property as the exploitation agent in the popular Whale Optimization Algorithm.
