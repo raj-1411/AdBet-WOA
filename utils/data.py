@@ -12,10 +12,7 @@ from torchvision.transforms.transforms import RandomAdjustSharpness
 
 def load(self):
     
-    if self.args.num_class == 2:
-        img_size = 224
-    else:
-        img_size = 380
+    img_size = 224 if self.args.num_class == 2 else 380
         
     #Augmentation
     train_transform = transforms.Compose([  transforms.Resize((img_size,img_size)),
