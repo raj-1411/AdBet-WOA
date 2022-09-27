@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import random
 
 from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report, confusion_matrix
 
@@ -253,7 +253,7 @@ class AdBetWOA():
 
         # auxiliary classifier
         
-        model = RandomForestClassifier(max_depth=7, random_state=0)
+        model = SVC(kernel='rbf')
         
         model.fit(train_refined, self.train_label)
         test_pred = model.predict(test_refined)
