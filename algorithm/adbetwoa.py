@@ -7,6 +7,7 @@ import numpy as np
 import time
 import matplotlib.pyplot as plt
 import random
+import sklearn
 
 from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
